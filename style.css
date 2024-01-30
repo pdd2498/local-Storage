@@ -1,0 +1,31 @@
+.input{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.box{
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/16/11/13/background-5050213_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+    padding: 10px;
+    border-radius: 7px;
+    width: 20vw;
+}
+#bodin{
+    width: 16.5vw;
+}
